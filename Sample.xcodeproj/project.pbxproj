@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D371E75C8F47E350E2B2FD8 /* Pods_Youth_Education_Marbella_Marbella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2110A7868F20662D0E00551D /* Pods_Youth_Education_Marbella_Marbella.framework */; };
+		2E02063A2534A574008EDC2E /* janbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E0206392534A574008EDC2E /* janbg.jpg */; };
+		2E02063D2534F946008EDC2E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02063C2534F946008EDC2E /* SecondViewController.swift */; };
+		2E03719B253CCCA10099A12D /* LunaGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E03719A253CCCA10099A12D /* LunaGifViewController.swift */; };
+		2E17E61F252A554300C31313 /* luna.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2E17E61E252A554300C31313 /* luna.jpeg */; };
+		2E17E622252A566300C31313 /* luna2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2E17E621252A566300C31313 /* luna2.jpeg */; };
+		2E17E625252A5AB300C31313 /* ZillaSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17E624252A5AB300C31313 /* ZillaSlab-Light.ttf */; };
+		2E17E628252A5BE400C31313 /* ZillaSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17E627252A5BE400C31313 /* ZillaSlab-Bold.ttf */; };
+		2E1AD0822529283A002F2DA0 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E1AD0812529283A002F2DA0 /* sample.jpg */; };
+		2E1AD0852529EF01002F2DA0 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E1AD0842529EF01002F2DA0 /* bg.jpg */; };
+		2E1D53CD252A67B900F7B8E0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D53CC252A67B900F7B8E0 /* DetailViewController.swift */; };
+		2E1D54672531D57D00F7B8E0 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E1D54662531D57D00F7B8E0 /* Montserrat-Bold.ttf */; };
+		2E22C68D2523D0B900734FAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E22C68C2523D0B900734FAE /* AppDelegate.swift */; };
+		2E22C68F2523D0B900734FAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E22C68E2523D0B900734FAE /* SceneDelegate.swift */; };
+		2E22C6912523D0B900734FAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E22C6902523D0B900734FAE /* ViewController.swift */; };
+		2E22C6942523D0B900734FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E22C6922523D0B900734FAE /* Main.storyboard */; };
+		2E22C6962523D0B900734FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E22C6952523D0B900734FAE /* Assets.xcassets */; };
+		2E22C6992523D0B900734FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E22C6972523D0B900734FAE /* LaunchScreen.storyboard */; };
+		2E22C6AC2523D50000734FAE /* yei1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E22C6A22523D50000734FAE /* yei1.jpg */; };
+		2E22C6AD2523D50000734FAE /* yei2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E22C6A32523D50000734FAE /* yei2.jpg */; };
+		2E22C6AE2523D50000734FAE /* yei3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E22C6A42523D50000734FAE /* yei3.jpg */; };
+		2E22C6AF2523D50000734FAE /* yei4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E22C6A52523D50000734FAE /* yei4.jpg */; };
+		2E22C6B02523D50000734FAE /* yei5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E22C6A62523D50000734FAE /* yei5.jpg */; };
+		2E22C6B12523D50000734FAE /* yei6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E22C6A72523D50000734FAE /* yei6.jpg */; };
+		2E22C6B22523D50000734FAE /* yei7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E22C6A82523D50000734FAE /* yei7.jpg */; };
+		2E22C6B32523D50000734FAE /* yei8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E22C6A92523D50000734FAE /* yei8.jpg */; };
+		2E22C6B42523D50000734FAE /* yei9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E22C6AA2523D50000734FAE /* yei9.jpg */; };
+		2E22C6B52523D50000734FAE /* yei10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E22C6AB2523D50000734FAE /* yei10.jpg */; };
+		2E331B9C2534737000BAE76A /* test2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E331B9B2534737000BAE76A /* test2.json */; };
+		2E6A25B4253C46D6000661B1 /* robothello.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E6A25B3253C46D6000661B1 /* robothello.json */; };
+		2E6A25B7253C48A8000661B1 /* education1.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E6A25B6253C48A8000661B1 /* education1.json */; };
+		2E6A25BA253C4CE6000661B1 /* test3.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E6A25B9253C4CE6000661B1 /* test3.json */; };
+		2E6A25BF253C4D9A000661B1 /* books.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E6A25BE253C4D9A000661B1 /* books.json */; };
+		2E75D229253C9507009072C3 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75D228253C9506009072C3 /* RootPageViewController.swift */; };
+		2E75D238253CAE0E009072C3 /* FirstSlide.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E75D237253CAE0E009072C3 /* FirstSlide.gif */; };
+		2EC324512533EF2100124D04 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 2EC3244D2533EE4800124D04 /* Images */; };
+		2EC7C3AA25344F9000746A36 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC7C3A925344F9000746A36 /* AnimationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FE6F8687CE48F854231710D /* Pods-Youth Education Marbella Marbella.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Youth Education Marbella Marbella.debug.xcconfig"; path = "Target Support Files/Pods-Youth Education Marbella Marbella/Pods-Youth Education Marbella Marbella.debug.xcconfig"; sourceTree = "<group>"; };
+		2110A7868F20662D0E00551D /* Pods_Youth_Education_Marbella_Marbella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Youth_Education_Marbella_Marbella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0206392534A574008EDC2E /* janbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = janbg.jpg; sourceTree = "<group>"; };
+		2E02063C2534F946008EDC2E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2E03719A253CCCA10099A12D /* LunaGifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunaGifViewController.swift; sourceTree = "<group>"; };
+		2E17E61E252A554300C31313 /* luna.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luna.jpeg; sourceTree = "<group>"; };
+		2E17E621252A566300C31313 /* luna2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luna2.jpeg; sourceTree = "<group>"; };
+		2E17E624252A5AB300C31313 /* ZillaSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-Light.ttf"; sourceTree = "<group>"; };
+		2E17E627252A5BE400C31313 /* ZillaSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-Bold.ttf"; sourceTree = "<group>"; };
+		2E1AD0812529283A002F2DA0 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
+		2E1AD0842529EF01002F2DA0 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		2E1D53CC252A67B900F7B8E0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2E1D54662531D57D00F7B8E0 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		2E22C6892523D0B900734FAE /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E22C68C2523D0B900734FAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E22C68E2523D0B900734FAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E22C6902523D0B900734FAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E22C6932523D0B900734FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E22C6952523D0B900734FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E22C6982523D0B900734FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E22C69A2523D0B900734FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E22C6A22523D50000734FAE /* yei1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yei1.jpg; sourceTree = "<group>"; };
+		2E22C6A32523D50000734FAE /* yei2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yei2.jpg; sourceTree = "<group>"; };
+		2E22C6A42523D50000734FAE /* yei3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yei3.jpg; sourceTree = "<group>"; };
+		2E22C6A52523D50000734FAE /* yei4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yei4.jpg; sourceTree = "<group>"; };
+		2E22C6A62523D50000734FAE /* yei5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yei5.jpg; sourceTree = "<group>"; };
+		2E22C6A72523D50000734FAE /* yei6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yei6.jpg; sourceTree = "<group>"; };
+		2E22C6A82523D50000734FAE /* yei7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yei7.jpg; sourceTree = "<group>"; };
+		2E22C6A92523D50000734FAE /* yei8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yei8.jpg; sourceTree = "<group>"; };
+		2E22C6AA2523D50000734FAE /* yei9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yei9.jpg; sourceTree = "<group>"; };
+		2E22C6AB2523D50000734FAE /* yei10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yei10.jpg; sourceTree = "<group>"; };
+		2E331B9B2534737000BAE76A /* test2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test2.json; sourceTree = "<group>"; };
+		2E6A25B3253C46D6000661B1 /* robothello.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = robothello.json; sourceTree = "<group>"; };
+		2E6A25B6253C48A8000661B1 /* education1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = education1.json; sourceTree = "<group>"; };
+		2E6A25B9253C4CE6000661B1 /* test3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test3.json; sourceTree = "<group>"; };
+		2E6A25BE253C4D9A000661B1 /* books.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = books.json; sourceTree = "<group>"; };
+		2E75D228253C9506009072C3 /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
+		2E75D237253CAE0E009072C3 /* FirstSlide.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FirstSlide.gif; sourceTree = "<group>"; };
+		2EC3244D2533EE4800124D04 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		2EC7C3A925344F9000746A36 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		8F8CFC7611DCD15D0E88A2B1 /* Pods-Youth Education Marbella Marbella.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Youth Education Marbella Marbella.release.xcconfig"; path = "Target Support Files/Pods-Youth Education Marbella Marbella/Pods-Youth Education Marbella Marbella.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E22C6862523D0B900734FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D371E75C8F47E350E2B2FD8 /* Pods_Youth_Education_Marbella_Marbella.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E22C6802523D0B800734FAE = {
+			isa = PBXGroup;
+			children = (
+				2E22C68B2523D0B900734FAE /* Sample */,
+				2E22C68A2523D0B900734FAE /* Products */,
+				E80FC3FF1BE7F53DD3829D86 /* Pods */,
+				DB0EA474958DC31BC2EFDFEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E22C68A2523D0B900734FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E22C6892523D0B900734FAE /* Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E22C68B2523D0B900734FAE /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				2E22C68C2523D0B900734FAE /* AppDelegate.swift */,
+				2E22C68E2523D0B900734FAE /* SceneDelegate.swift */,
+				2E22C6902523D0B900734FAE /* ViewController.swift */,
+				2E1D54662531D57D00F7B8E0 /* Montserrat-Bold.ttf */,
+				2E1D53CC252A67B900F7B8E0 /* DetailViewController.swift */,
+				2E17E627252A5BE400C31313 /* ZillaSlab-Bold.ttf */,
+				2E17E624252A5AB300C31313 /* ZillaSlab-Light.ttf */,
+				2E75D237253CAE0E009072C3 /* FirstSlide.gif */,
+				2E331B9B2534737000BAE76A /* test2.json */,
+				2E6A25B3253C46D6000661B1 /* robothello.json */,
+				2E22C6922523D0B900734FAE /* Main.storyboard */,
+				2E6A25BE253C4D9A000661B1 /* books.json */,
+				2E6A25B6253C48A8000661B1 /* education1.json */,
+				2E75D245253CBFE2009072C3 /* LunaPosters */,
+				2E6A25B9253C4CE6000661B1 /* test3.json */,
+				2E22C69A2523D0B900734FAE /* Info.plist */,
+				2E22C6952523D0B900734FAE /* Assets.xcassets */,
+				2EC3244D2533EE4800124D04 /* Images */,
+				2E22C6972523D0B900734FAE /* LaunchScreen.storyboard */,
+				2E22C6A12523D50000734FAE /* Content */,
+				2EC7C3A925344F9000746A36 /* AnimationViewController.swift */,
+				2E02063C2534F946008EDC2E /* SecondViewController.swift */,
+				2E75D228253C9506009072C3 /* RootPageViewController.swift */,
+				2E03719A253CCCA10099A12D /* LunaGifViewController.swift */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		2E22C6A12523D50000734FAE /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E22C6A22523D50000734FAE /* yei1.jpg */,
+				2E22C6A32523D50000734FAE /* yei2.jpg */,
+				2E22C6A42523D50000734FAE /* yei3.jpg */,
+				2E22C6A52523D50000734FAE /* yei4.jpg */,
+				2E22C6A62523D50000734FAE /* yei5.jpg */,
+				2E22C6A72523D50000734FAE /* yei6.jpg */,
+				2E22C6A82523D50000734FAE /* yei7.jpg */,
+				2E22C6A92523D50000734FAE /* yei8.jpg */,
+				2E0206392534A574008EDC2E /* janbg.jpg */,
+				2E22C6AA2523D50000734FAE /* yei9.jpg */,
+				2E22C6AB2523D50000734FAE /* yei10.jpg */,
+				2E1AD0842529EF01002F2DA0 /* bg.jpg */,
+				2E1AD0812529283A002F2DA0 /* sample.jpg */,
+				2E17E61E252A554300C31313 /* luna.jpeg */,
+				2E17E621252A566300C31313 /* luna2.jpeg */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		2E75D245253CBFE2009072C3 /* LunaPosters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LunaPosters;
+			sourceTree = "<group>";
+		};
+		DB0EA474958DC31BC2EFDFEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2110A7868F20662D0E00551D /* Pods_Youth_Education_Marbella_Marbella.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E80FC3FF1BE7F53DD3829D86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FE6F8687CE48F854231710D /* Pods-Youth Education Marbella Marbella.debug.xcconfig */,
+				8F8CFC7611DCD15D0E88A2B1 /* Pods-Youth Education Marbella Marbella.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E22C6882523D0B900734FAE /* Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E22C69D2523D0B900734FAE /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildPhases = (
+				1720F041F65757A9C849236A /* [CP] Check Pods Manifest.lock */,
+				2E22C6852523D0B900734FAE /* Sources */,
+				2E22C6862523D0B900734FAE /* Frameworks */,
+				2E22C6872523D0B900734FAE /* Resources */,
+				F7F06EB7086F6AB2D9BE779D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sample;
+			productName = YouthEducation;
+			productReference = 2E22C6892523D0B900734FAE /* Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E22C6812523D0B800734FAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2E22C6882523D0B900734FAE = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2E22C6842523D0B800734FAE /* Build configuration list for PBXProject "Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E22C6802523D0B800734FAE;
+			productRefGroup = 2E22C68A2523D0B900734FAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E22C6882523D0B900734FAE /* Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E22C6872523D0B900734FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6A25BF253C4D9A000661B1 /* books.json in Resources */,
+				2EC324512533EF2100124D04 /* Images in Resources */,
+				2E1D54672531D57D00F7B8E0 /* Montserrat-Bold.ttf in Resources */,
+				2E02063A2534A574008EDC2E /* janbg.jpg in Resources */,
+				2E22C6AD2523D50000734FAE /* yei2.jpg in Resources */,
+				2E6A25BA253C4CE6000661B1 /* test3.json in Resources */,
+				2E17E622252A566300C31313 /* luna2.jpeg in Resources */,
+				2E22C6B42523D50000734FAE /* yei9.jpg in Resources */,
+				2E75D238253CAE0E009072C3 /* FirstSlide.gif in Resources */,
+				2E22C6B02523D50000734FAE /* yei5.jpg in Resources */,
+				2E6A25B4253C46D6000661B1 /* robothello.json in Resources */,
+				2E22C6AE2523D50000734FAE /* yei3.jpg in Resources */,
+				2E22C6B32523D50000734FAE /* yei8.jpg in Resources */,
+				2E6A25B7253C48A8000661B1 /* education1.json in Resources */,
+				2E1AD0822529283A002F2DA0 /* sample.jpg in Resources */,
+				2E22C6B52523D50000734FAE /* yei10.jpg in Resources */,
+				2E17E625252A5AB300C31313 /* ZillaSlab-Light.ttf in Resources */,
+				2E22C6AC2523D50000734FAE /* yei1.jpg in Resources */,
+				2E331B9C2534737000BAE76A /* test2.json in Resources */,
+				2E22C6B12523D50000734FAE /* yei6.jpg in Resources */,
+				2E22C6B22523D50000734FAE /* yei7.jpg in Resources */,
+				2E1AD0852529EF01002F2DA0 /* bg.jpg in Resources */,
+				2E17E628252A5BE400C31313 /* ZillaSlab-Bold.ttf in Resources */,
+				2E22C6992523D0B900734FAE /* LaunchScreen.storyboard in Resources */,
+				2E22C6962523D0B900734FAE /* Assets.xcassets in Resources */,
+				2E17E61F252A554300C31313 /* luna.jpeg in Resources */,
+				2E22C6AF2523D50000734FAE /* yei4.jpg in Resources */,
+				2E22C6942523D0B900734FAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1720F041F65757A9C849236A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Youth Education Marbella Marbella-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F06EB7086F6AB2D9BE779D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Youth Education Marbella Marbella/Pods-Youth Education Marbella Marbella-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Youth Education Marbella Marbella/Pods-Youth Education Marbella Marbella-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Youth Education Marbella Marbella/Pods-Youth Education Marbella Marbella-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E22C6852523D0B900734FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E02063D2534F946008EDC2E /* SecondViewController.swift in Sources */,
+				2E22C6912523D0B900734FAE /* ViewController.swift in Sources */,
+				2E22C68D2523D0B900734FAE /* AppDelegate.swift in Sources */,
+				2E03719B253CCCA10099A12D /* LunaGifViewController.swift in Sources */,
+				2EC7C3AA25344F9000746A36 /* AnimationViewController.swift in Sources */,
+				2E75D229253C9507009072C3 /* RootPageViewController.swift in Sources */,
+				2E22C68F2523D0B900734FAE /* SceneDelegate.swift in Sources */,
+				2E1D53CD252A67B900F7B8E0 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E22C6922523D0B900734FAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E22C6932523D0B900734FAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E22C6972523D0B900734FAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E22C6982523D0B900734FAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E22C69B2523D0B900734FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E22C69C2523D0B900734FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E22C69E2523D0B900734FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE6F8687CE48F854231710D /* Pods-Youth Education Marbella Marbella.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.Sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2E22C69F2523D0B900734FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F8CFC7611DCD15D0E88A2B1 /* Pods-Youth Education Marbella Marbella.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.Sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E22C6842523D0B800734FAE /* Build configuration list for PBXProject "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E22C69B2523D0B900734FAE /* Debug */,
+				2E22C69C2523D0B900734FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E22C69D2523D0B900734FAE /* Build configuration list for PBXNativeTarget "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E22C69E2523D0B900734FAE /* Debug */,
+				2E22C69F2523D0B900734FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E22C6812523D0B800734FAE /* Project object */;
+}

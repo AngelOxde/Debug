@@ -1,0 +1,20 @@
+PODS:
+  - lottie-ios (3.1.8)
+  - SwiftyGif (5.3.0)
+
+DEPENDENCIES:
+  - lottie-ios
+  - SwiftyGif
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+    - SwiftyGif
+
+SPEC CHECKSUMS:
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  SwiftyGif: e466e86c660d343357ab944a819a101c4127cb40
+
+PODFILE CHECKSUM: 8635ad7b7c28daa986dc6fbda7064e2d403eb32f
+
+COCOAPODS: 1.10.0.rc.1
