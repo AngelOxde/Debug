@@ -1,9 +1,4 @@
-//
-//  AnimationViewController.swift
-//  YouthEducation
-//
-//  Created by KRISH JAIN on 12/10/2020.
-//
+
 
 import UIKit
 import Lottie

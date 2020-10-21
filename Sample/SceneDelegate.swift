@@ -1,9 +1,4 @@
-//
-//  SceneDelegate.swift
-//  YouthEducation
-//
-//  Created by KRISH JAIN on 29/09/2020.
-//
+
 
 import UIKit
 
